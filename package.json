@@ -1,0 +1,16 @@
+{
+  "name": "outline-stroke",
+  "version": "1.0.0",
+  "description": "Transfrom svg strokes into filled paths",
+  "main": "index.js",
+  "repository": "https://github.com/elrumordelaluz/outline-stroke.git",
+  "author": "Lionel T <elrumordelaluz@hotmail.com> (https://elrumordelaluz.com/)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "potrace": "2.1.1",
+    "svg2img": "0.2.8"
+  }
+}
