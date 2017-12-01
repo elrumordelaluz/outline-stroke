@@ -95,9 +95,9 @@ canvas@^1.3.12:
     parse-css-font "^2.0.2"
     units-css "^0.4.0"
 
-"canvg@git+https://github.com/fuzhenn/canvg.git":
+"canvg@https://github.com/fuzhenn/canvg":
   version "1.0.0"
-  resolved "git+https://github.com/fuzhenn/canvg.git#623676abbb08dc7d4d2c26db3da922c7e89ac8bf"
+  resolved "https://github.com/fuzhenn/canvg#623676abbb08dc7d4d2c26db3da922c7e89ac8bf"
   dependencies:
     jsdom "^8.1.0"
     rgbcolor "0.0.4"
