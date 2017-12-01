@@ -9,7 +9,7 @@ yarn add outline-stroke
 ```
 
 ```js
-const outlineStroke = require('outline-stroke')
+const outlineStroke = require('svg-outline-stroke')
 
 const strokedSVG = `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
@@ -18,7 +18,11 @@ const strokedSVG = `
 </svg>`
 
 outlineStroke(strokedSVG).then(outlined => {
-  console.log(outlined, 🎉)
+  console.log(outlined)
 })
 
+// Scale passing width and height options
+outlineStroke(strokedSVG, { width: 500, height: 500 }).then(outlined => {
+  console.log(outlined)
+})
 ```
