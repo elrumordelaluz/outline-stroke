@@ -1,4 +1,4 @@
-# outline-stroke
+# svg-outline-stroke
 
 Sometimes you need an `svg` image that have `paths` with `stroke` attributes but
 outlined like after apply the _Outline Stroke_ in _Illustrator_ or _Convert to
