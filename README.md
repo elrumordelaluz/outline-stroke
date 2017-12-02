@@ -26,3 +26,30 @@ outlineStroke(strokedSVG, { width: 500, height: 500 }).then(outlined => {
   console.log(outlined)
 })
 ```
+
+or from `Buffer`
+
+```js
+const fs = require('fs')
+const outlineStroke = require('svg-outline-stroke')
+
+fs.readFile('./source.svg', (err, data) => {
+  if (err) throw err
+  outlineStroke(data).then(outlined => {
+    fs.writeFile('./dest.svg', outlined, err => {
+      if (err) throw err
+      console.log('yup, outlined!')
+    })
+  })
+})
+```
+
+or from `.svg` file directly
+
+```js
+const path = require('path')
+
+outlineStroke(path.resolve('source.svg')).then(outlined =>
+  console.log(outlined)
+)
+```
