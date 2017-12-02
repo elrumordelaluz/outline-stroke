@@ -1,13 +1,18 @@
 # svg-outline-stroke
 
-Sometimes you need an `svg` image that have `paths` with `stroke` attributes but
-outlined like after apply the _Outline Stroke_ in _Illustrator_ or _Convert to
-Outlines_ in _Sketch_
+> Sometimes you need an `svg` image that have `stroke`d attributes in its
+> `paths` but **outlined** like after applying _Outline Stroke_ in _Adobe
+> Illustrator_ or _Convert to Outlines_ in _SketchApp_
+
+### Install
 
 ```zsh
 yarn add outline-stroke
 ```
 
+### Usage
+
+`String` input:
 ```js
 const outlineStroke = require('svg-outline-stroke')
 
@@ -27,7 +32,7 @@ outlineStroke(strokedSVG, { width: 500, height: 500 }).then(outlined => {
 })
 ```
 
-or from `Buffer`
+`Buffer` input:
 
 ```js
 const fs = require('fs')
@@ -44,7 +49,7 @@ fs.readFile('./source.svg', (err, data) => {
 })
 ```
 
-or from `.svg` file directly
+`.svg` from _File System_ input:
 
 ```js
 const path = require('path')
