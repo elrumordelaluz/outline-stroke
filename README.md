@@ -1,10 +1,17 @@
-# svg-outline-stroke
+# svg-outline-stroke [![Build Status](https://travis-ci.org/elrumordelaluz/outline-stroke.svg?branch=master)](https://travis-ci.org/elrumordelaluz/outline-stroke)
 
 > Sometimes you need an `svg` image that have `stroke`d attributes in its
 > `paths` but **outlined** like after applying _Outline Stroke_ in _Adobe
 > Illustrator_ or _Convert to Outlines_ in _SketchApp_
 
 ### Install
+
+One important dependency of this package is the awesome
+[canvas](https://github.com/Automattic/node-canvas) so in order to allow the
+installation process is necessary to have
+[installed before](https://github.com/Automattic/node-canvas#installation) some
+other packages.
+[More details](https://github.com/Automattic/node-canvas/wiki/_pages).
 
 ```zsh
 yarn add outline-stroke
