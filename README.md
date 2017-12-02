@@ -4,7 +4,7 @@
 > `paths` but **outlined** like after applying _Outline Stroke_ in _Adobe
 > Illustrator_ or _Convert to Outlines_ in _SketchApp_
 
-### Install
+## Install
 
 One important dependency of this package is the awesome
 [canvas](https://github.com/Automattic/node-canvas) so in order to allow the
@@ -17,7 +17,7 @@ other packages.
 yarn add outline-stroke
 ```
 
-### Usage
+## Usage
 
 `String` input:
 
@@ -67,7 +67,7 @@ outlineStroke(path.resolve('source.svg')).then(outlined =>
 )
 ```
 
-### Options
+## Options
 
 `width` and `height` to scale the output (defaults to `256`)
 
