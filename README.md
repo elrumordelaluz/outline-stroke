@@ -77,4 +77,5 @@ outlineStroke(strokedSVG, { width: 1000, height: 1000 })
 
 ## Related
 
-[micro-outline-stroke](https://github.com/elrumordelaluz/micro-outline-stroke) Microservice with a public [endpoint](https://micro-outline-stroke-ukoullcfzb.now.sh/) 
+[micro-outline-stroke](https://github.com/elrumordelaluz/micro-outline-stroke)
+Microservice with a public [endpoint](https://micro-outline-stroke.now.sh/)
