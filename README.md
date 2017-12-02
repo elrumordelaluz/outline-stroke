@@ -13,6 +13,7 @@ yarn add outline-stroke
 ### Usage
 
 `String` input:
+
 ```js
 const outlineStroke = require('svg-outline-stroke')
 
@@ -57,4 +58,12 @@ const path = require('path')
 outlineStroke(path.resolve('source.svg')).then(outlined =>
   console.log(outlined)
 )
+```
+
+### Options
+
+`width` and `height` to scale the output (defaults to `256`)
+
+```js
+outlineStroke(strokedSVG, { width: 1000, height: 1000 })
 ```
