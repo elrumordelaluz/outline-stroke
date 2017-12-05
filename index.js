@@ -1,20 +1,14 @@
 const potrace = require('potrace')
 const sharp = require('sharp')
+const { promisify } = require('util')
+
+const trace = promisify(potrace.trace)
 
 const outlineStroke = input => {
   const src = Buffer.isBuffer(input) ? input : new Buffer(input)
-  return new Promise((resolve, reject) => {
-    sharp(src)
-      .toBuffer()
-      .then(buffer => {
-        potrace.trace(buffer, (err, svg) => {
-          if (err) {
-            reject(`Error in potrace: ${err}`)
-          }
-          resolve(svg)
-        })
-      })
-  })
+  return sharp(src)
+    .toBuffer()
+    .then(trace)
 }
 
 exports = module.exports = outlineStroke
