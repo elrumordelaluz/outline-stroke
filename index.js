@@ -1,19 +1,19 @@
 const potrace = require('potrace')
-const svg2img = require('svg2img')
+const sharp = require('sharp')
 
-const outlineStroke = (input, { width = 256, height = 256 } = {}) => {
+const outlineStroke = input => {
+  const src = Buffer.isBuffer(input) ? input : new Buffer(input)
   return new Promise((resolve, reject) => {
-    svg2img(input, { format: 'png', width, height }, (err, buffer) => {
-      if (err) {
-        reject(`Error in svg2img: ${err}`)
-      }
-      potrace.trace(buffer, (err, svg) => {
-        if (err) {
-          reject(`Error in potrace: ${err}`)
-        }
-        resolve(svg)
+    sharp(src)
+      .toBuffer()
+      .then(buffer => {
+        potrace.trace(buffer, (err, svg) => {
+          if (err) {
+            reject(`Error in potrace: ${err}`)
+          }
+          resolve(svg)
+        })
       })
-    })
   })
 }
 
