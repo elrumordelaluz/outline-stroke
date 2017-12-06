@@ -14,7 +14,7 @@ other packages.
 [More details](https://github.com/Automattic/node-canvas/wiki/_pages).
 
 ```zsh
-yarn add outline-stroke
+yarn add svg-outline-stroke
 ```
 
 ## Usage
@@ -31,11 +31,6 @@ const strokedSVG = `
 </svg>`
 
 outlineStroke(strokedSVG).then(outlined => {
-  console.log(outlined)
-})
-
-// Scale passing width and height options
-outlineStroke(strokedSVG, { width: 500, height: 500 }).then(outlined => {
   console.log(outlined)
 })
 ```
@@ -55,24 +50,6 @@ fs.readFile('./source.svg', (err, data) => {
     })
   })
 })
-```
-
-`.svg` from _File System_ input:
-
-```js
-const path = require('path')
-
-outlineStroke(path.resolve('source.svg')).then(outlined =>
-  console.log(outlined)
-)
-```
-
-## Options
-
-`width` and `height` to scale the output (defaults to `256`)
-
-```js
-outlineStroke(strokedSVG, { width: 1000, height: 1000 })
 ```
 
 ## Related
