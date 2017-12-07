@@ -6,13 +6,6 @@
 
 ## Install
 
-One important dependency of this package is the awesome
-[canvas](https://github.com/Automattic/node-canvas) so in order to allow the
-installation process is necessary to have
-[installed before](https://github.com/Automattic/node-canvas#installation) some
-other packages.
-[More details](https://github.com/Automattic/node-canvas/wiki/_pages).
-
 ```zsh
 yarn add svg-outline-stroke
 ```
