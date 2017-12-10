@@ -1,6 +1,6 @@
 {
   "name": "svg-outline-stroke",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Transfrom svg strokes into filled paths",
   "main": "index.js",
   "repository": "https://github.com/elrumordelaluz/outline-stroke.git",
