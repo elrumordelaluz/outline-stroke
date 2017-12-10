@@ -6,7 +6,6 @@ const trace = promisify(potrace.trace)
 
 const outlineStroke = input => {
   const src = Buffer.isBuffer(input) ? input : Buffer.from(input)
-  console.log({ src })
   return sharp(src)
     .toBuffer()
     .then(trace)
