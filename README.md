@@ -4,7 +4,7 @@
 
 <p align="center">
   Sometimes you need an <code>svg</code> image that have <code>stroke</code>d attributes in its
-  <code>paths</code> but <strong>outlined</strong> like after applying <em>Outline Stroke</em> in <em>Adobe Illustrator</em> or <em>Convert to Outlines</em> in <em>SketchApp<em>
+  <code>paths</code> but <strong>outlined</strong> like after applying <em>Outline Stroke</em> in <em>Adobe Illustrator</em> or <em>Convert to Outlines</em> in <em>SketchApp</em>
 </p>
 
 <p align="center">
