@@ -3,12 +3,14 @@
 </p>
 
 <p align="center">
-  Sometimes you need an `svg` image that have `stroke`d attributes in its
-  `paths` but **outlined** like after applying _Outline Stroke_ in _Adobe Illustrator_ or _Convert to Outlines_ in _SketchApp_
+  Sometimes you need an <code>svg</code> image that have <code>stroke</code>d attributes in its
+  <code>paths</code> but <strong>outlined</strong> like after applying <em>Outline Stroke</em> in <em>Adobe Illustrator</em> or <em>Convert to Outlines</em> in <em>SketchApp<em>
 </p>
 
 <p align="center">
-  [![Build Status](https://travis-ci.org/elrumordelaluz/outline-stroke.svg?branch=master)](https://travis-ci.org/elrumordelaluz/outline-stroke)
+  <a href="https://travis-ci.org/elrumordelaluz/outline-stroke">
+    <img src="https://travis-ci.org/elrumordelaluz/outline-stroke.svg?branch=master" alt="Build Status">
+  </a>
 </p>
 
 ## Install
