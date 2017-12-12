@@ -1,8 +1,15 @@
-# svg-outline-stroke [![Build Status](https://travis-ci.org/elrumordelaluz/outline-stroke.svg?branch=master)](https://travis-ci.org/elrumordelaluz/outline-stroke)
+<p align="center">
+  <img alt="Outline Stroke" title="Outline Stroke" src="/logo.svg" width="450">
+</p>
 
-> Sometimes you need an `svg` image that have `stroke`d attributes in its
-> `paths` but **outlined** like after applying _Outline Stroke_ in _Adobe
-> Illustrator_ or _Convert to Outlines_ in _SketchApp_
+<p align="center">
+  Sometimes you need an `svg` image that have `stroke`d attributes in its
+  `paths` but **outlined** like after applying _Outline Stroke_ in _Adobe Illustrator_ or _Convert to Outlines_ in _SketchApp_
+</p>
+
+<p align="center">
+  [![Build Status](https://travis-ci.org/elrumordelaluz/outline-stroke.svg?branch=master)](https://travis-ci.org/elrumordelaluz/outline-stroke)
+</p>
 
 ## Install
 
