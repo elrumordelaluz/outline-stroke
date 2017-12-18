@@ -54,6 +54,16 @@ fs.readFile('./source.svg', (err, data) => {
 })
 ```
 
+## Params
+
+The second argument accepts `params` to apply directly when re-tracing the image, like `fill` color of the `path`, `background` and so on. Take a look into [potrace params](https://github.com/tooolbox/node-potrace#parameters)
+
+```js
+outlineStroke(strokedSVG, { color: '#bada55' }).then(outlined => {
+  console.log(outlined, 'Outlined SVG with #bada55 `fill` color')
+})
+```
+
 ## Related
 
 [micro-outline-stroke](https://github.com/elrumordelaluz/micro-outline-stroke)
