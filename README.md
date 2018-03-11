@@ -68,3 +68,5 @@ outlineStroke(strokedSVG, { color: '#bada55' }).then(outlined => {
 
 [micro-outline-stroke](https://github.com/elrumordelaluz/micro-outline-stroke)
 Microservice with a public [endpoint](https://micro-outline-stroke.now.sh/)
+
+[outline-stroke-cli](https://github.com/elrumordelaluz/outline-stroke-cli) CLI version
