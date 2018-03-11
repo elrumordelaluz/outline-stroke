@@ -17,7 +17,7 @@
   ],
   "dependencies": {
     "potrace": "2.1.1",
-    "sharp": "0.18.4"
+    "sharp": "0.20.0"
   },
   "devDependencies": {
     "ava": "0.24.0"
