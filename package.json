@@ -17,10 +17,10 @@
   ],
   "dependencies": {
     "potrace": "2.1.1",
-    "sharp": "0.20.0"
+    "sharp": "0.20.1"
   },
   "devDependencies": {
-    "ava": "0.24.0"
+    "ava": "0.25.0"
   },
   "xo": {
     "esnext": true
