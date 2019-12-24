@@ -16,11 +16,11 @@
     "index.js"
   ],
   "dependencies": {
-    "potrace": "2.1.1",
-    "sharp": "0.21.0"
+    "potrace": "2.1.2",
+    "sharp": "0.23.4"
   },
   "devDependencies": {
-    "ava": "0.25.0"
+    "ava": "2.4.0"
   },
   "xo": {
     "esnext": true
