@@ -21,6 +21,8 @@ yarn add svg-outline-stroke
 
 ## Usage
 
+> **Note to output quality:** Consider that svg-outline-troke traces the outline version from a bitmap copy of the input so, bigger is the input, most accurate is the traced version (also with lot more path points). If the output quality is insufficient simply provide a larger scaled SVG into the tool (see width, height and viewBox attributes).
+
 `String` input:
 
 ```js
